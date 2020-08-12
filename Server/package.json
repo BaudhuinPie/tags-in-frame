@@ -1,0 +1,31 @@
+{
+  "name": "serve_tags_in_frame",
+  "version": "1.0.0",
+  "description": "allow to add and edit tags on frames",
+  "main": "server.js",
+  "scripts": {
+    "watch": "nodemon server.js",
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaudhuinPie/tags-in-frame.git"
+  },
+  "keywords": [
+    "tags",
+    "picture",
+    "edition"
+  ],
+  "author": "Pierre Baudhuin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaudhuinPie/tags-in-frame/issues"
+  },
+  "homepage": "https://github.com/BaudhuinPie/tags-in-frame#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "github:mysqljs/mysql",
+    "nodemon": "^2.0.4"
+  }
+}
