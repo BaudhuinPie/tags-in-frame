@@ -4,17 +4,20 @@ Exercice of programming following two user stories. 3 Days.
 ## tech used for the project
 
 ### Back-end
-Nodejs
-Nodemon
-Express
-dotenv
-MySQL
+- Nodejs
+- Nodemon
+- Express
+- dotenv
+- MySQL
 ...
 
 ### Front-end
-Vue CLI
-Vuetify
-Vuetify-loader with sharp
+- Vue CLI
+- with router, node-sass pre-processor, - Babel, ESLint (Airbnb)
+- Vuetify
+- Vuetify-loader 
+- with sharp
 
-## Installation
-...
+### OS - Windows 10
+
+
