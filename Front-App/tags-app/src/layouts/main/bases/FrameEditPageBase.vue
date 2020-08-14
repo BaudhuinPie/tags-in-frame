@@ -1,26 +1,25 @@
 <template>
-    <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-      
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          
-          width="100"
-        />
-      </div>
+    <div>
+        <!-- <Header></Header>
+        <TextPanel></TextPanel>
+        <TagsMenu></TagsMenu>
+        <EditToolsMenu></EditToolsMenu>
+        <FrameEditorPanel></FrameEditorPanel>
+        <FramesMenu></FramesMenu>
+        <ToolsLegend></ToolsLegend> -->
+    </div>
 </template>
+
 <script>
-    //import
+// import './';
+// import './';
+// import './';
+// import './';
+// import './';
+// import './';
+// import './';
+// import './';
+// import './';
     export default {
         name: '',
         //extends: '',

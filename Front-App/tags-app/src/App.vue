@@ -46,7 +46,7 @@
 
 <script>
 //import HelloWorld from './components/HelloWorld';
-import FrameEditPage from './layouts/custom/bases/FrameEditPageBase'; //'./layouts/custom/bases/EditToolsMenuBase'; //'./layouts/custom/cases/FrameEditPageBase';
+import FrameEditPage from './layouts/main/FrameEditPage'; //'./layouts/custom/bases/EditToolsMenuBase'; //'./layouts/custom/cases/FrameEditPageBase';
 
 export default {
   name: 'App',
