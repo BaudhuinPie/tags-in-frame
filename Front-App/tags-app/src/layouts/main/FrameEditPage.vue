@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>Hello</p>
+        <p>Helloooooooooo</p>
         <!-- <Header></Header>
         <TextPanel></TextPanel>
         <TagsMenu></TagsMenu> -->
