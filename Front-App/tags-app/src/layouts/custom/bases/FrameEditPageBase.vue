@@ -1,0 +1,11 @@
+<template>
+    <div>
+        <Header></Header>
+        <TextPanel></TextPanel>
+        <TagsMenu></TagsMenu>
+        <EditToolsMenu></EditToolsMenu>
+        <FrameEditorPanel></FrameEditorPanel>
+        <FramesMenu></FramesMenu>
+        <ToolsLegend></ToolsLegend>
+    </div>
+</template>

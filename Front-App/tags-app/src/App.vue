@@ -38,19 +38,22 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <!-- <HelloWorld/> -->
+      <FrameEditPage/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+//import HelloWorld from './components/HelloWorld';
+import FrameEditPage from './layouts/custom/bases/FrameEditPageBase'; //'./layouts/custom/bases/EditToolsMenuBase'; //'./layouts/custom/cases/FrameEditPageBase';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    // HelloWorld,
+    FrameEditPage,
   },
 
   data: () => ({
