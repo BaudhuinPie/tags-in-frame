@@ -5,8 +5,8 @@
         <TextPanel></TextPanel>
         <TagsMenu></TagsMenu> -->
         <!-- <EditToolsMenu></EditToolsMenu> -->
-        <!-- <FrameEditorPanel></FrameEditorPanel> -->
-        <EditToolsMenu></EditToolsMenu>
+        <FrameEditLayout></FrameEditLayout>
+        <!-- <EditToolsMenu></EditToolsMenu> -->
         <!-- <FramesMenu></FramesMenu>
         <ToolsLegend></ToolsLegend> -->
     </div>
@@ -17,7 +17,7 @@
 // import from '../custom/TextPanel';
 // import from '../custom/TagsMenu';
 // import from '../custom/EditToolsMenu';
-import FrameEditorPanel from '../custom/FrameEditorPanel';
+import FrameEditLayout from '../custom/FrameEditLayout';
 // import from '../custom/FramesMenu';
 // import from '../custom/ToolsLegend';
 import EditToolsMenu from '../custom/EditToolsMenu';
@@ -28,7 +28,7 @@ import EditToolsMenu from '../custom/EditToolsMenu';
          components: {
             //Header, TextPanel,
             //TagsMenu, EditToolsMenu,
-            FrameEditorPanel,
+            FrameEditLayout,
             //FramesMenu,
             //ToolsLegend,
             EditToolsMenu
