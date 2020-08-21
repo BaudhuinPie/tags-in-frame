@@ -5,7 +5,8 @@
         <TextPanel></TextPanel>
         <TagsMenu></TagsMenu> -->
         <!-- <EditToolsMenu></EditToolsMenu> -->
-        <FrameEditorPanel></FrameEditorPanel>
+        <!-- <FrameEditorPanel></FrameEditorPanel> -->
+        <EditToolsMenu></EditToolsMenu>
         <!-- <FramesMenu></FramesMenu>
         <ToolsLegend></ToolsLegend> -->
     </div>
@@ -19,9 +20,10 @@
 import FrameEditorPanel from '../custom/FrameEditorPanel';
 // import from '../custom/FramesMenu';
 // import from '../custom/ToolsLegend';
+import EditToolsMenu from '../custom/EditToolsMenu';
 
     export default {
-        name: '',
+        name: 'FrameEditPanel',
         //extends: '',
          components: {
             //Header, TextPanel,
@@ -29,6 +31,7 @@ import FrameEditorPanel from '../custom/FrameEditorPanel';
             FrameEditorPanel,
             //FramesMenu,
             //ToolsLegend,
+            EditToolsMenu
          },
         // methods:{
         //     getValue:function(){

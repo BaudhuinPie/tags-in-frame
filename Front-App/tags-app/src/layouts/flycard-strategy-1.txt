@@ -1,0 +1,23 @@
+
+// I want to map all the elements to display
+// More elements need to be smaller. Their elevation must be reduced as much as they are but at square root
+// Hence, if lonely one have an elevation of 16 units ; 4 elements must dived their elevation by 2 = 8 .
+// All together they fit inside a box which may change of size. 
+
+// The Parent box absolute size = ground variable
+
+// the ground variable is weighted for elevation & z-index level = root variable
+
+// items displayed number is square rooted = floor step
+
+// the level = root / floor
+
+// weighting the ground variable means to set only some values at the root. 
+// we need a function which makes the job. 
+// This func take a gap argument between values to set.
+// root = ground - ground % gap .
+
+// On peut immaginer que la partie computed se fait en JS . 
+// Root & floor sont passé dans le html OU le CSS directement. 
+
+// Savoir si update varaible dans CSS = DOM update ou si dans HTML = DOM update
